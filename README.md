@@ -9,29 +9,31 @@ If using low voltage flash, such as SST26WF040B (1.8V), please modify the power 
 
 The Nucleo board default operation voltage is 3.3V.
 
-  remove SB14
+      remove SB14
 
-  apply 1.8v to jp1. make sure all VDD. AVDD, +3V3 are 1.8V
+      apply 1.8v to jp1. make sure all VDD. AVDD, +3V3 are 1.8V
   
 Connect flash to Nucleo board.
 
-  pin1 (CE#) to PA4
+      pin1 (CE#) to PA4
   
-  pin2 (SO) to PA6
+      pin2 (SO) to PA6
   
-  pin3 (WP#) 10K pull high to 1.8v
+      pin3 (WP#) 10K pull high to 1.8v
   
-  pin4 (VSS) to gnd
+      pin4 (VSS) to gnd
   
-  pin5 SI to PA7
+      pin5 SI to PA7
   
-  pin6 SCK to PA5
+      pin6 SCK to PA5
   
-  pin7 HOLD 10K pull high to 1.8V
+      pin7 HOLD 10K pull high to 1.8V
   
-  pin8 to 1.8V
+      pin8 to 1.8V
   
 Have Fun...
+
+
 
 Patrick Lin.
 
