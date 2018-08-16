@@ -1,7 +1,8 @@
 # STM32_Flash
 This project was made based on STM32CubeMx and built for STM32 Nucleo board, NUCLEO-L031K6. The compiler IDE is Keil 5.
 
-Please follow the intructions to setup your hardware environment.
+Please follow the intructions to setup your hardware environment. 
+
 If using low voltage flash, such as SST26WF040B (1.8V), please modify the power source in Nucleo board.
 The Nucleo board default operation voltage is 3.3V.
 
